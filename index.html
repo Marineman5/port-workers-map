@@ -104,6 +104,11 @@ table.cats { width: 100%; border-collapse: collapse; font-size: 15px; }
 .cats .nodata { text-align: right; color: var(--text-sub); font-size: 13px; }
 .donut .empty { fill: none; stroke: var(--rule); stroke-width: 2; }
 
+/* ハブへの導線（全プロダクト共通：左上に小さく） */
+.homelink { margin: 0 0 14px; font-size: 13px; font-weight: 500; }
+.homelink a { color: var(--text-sub); text-decoration: none; }
+.homelink a:hover { color: var(--text); text-decoration: underline; text-underline-offset: 2px; }
+
 /* フッター */
 .foot { margin-top: 24px; font-size: 12px; line-height: 1.65; color: var(--text-sub); }
 .foot p { margin: 0 0 2px; }
@@ -116,6 +121,7 @@ table.cats { width: 100%; border-collapse: collapse; font-size: 15px; }
 </head>
 <body>
 <main class="app" id="app">
+  <p class="homelink"><a href="https://me.marineman5.com/">marineman5</a></p>
 
   <section class="screen" id="s-l1" aria-labelledby="h-l1">
     <h1 id="h-l1"></h1>
